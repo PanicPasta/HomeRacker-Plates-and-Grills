@@ -4,6 +4,12 @@ I needed some custom sized plates for my new HomeRacker setup, so this is what I
 
 Easy and fast way to enclose your new HomeRacker setup for a more professional look.
 
+Find this project on Maker World: https://makerworld.com/en/models/1945329-homeracker-plates-fan-grills
+
+Find me on MakerWorld: https://makerworld.com/en/@PanicPasta
+
+<img src="https://makerworld.bblmw.com/makerworld/model/USbae2ffb7561780/design/2025-12-19_59af8631595678.jpg" width="50%" height="50%">
+
 **Now with Fan Grills / Exhaust Holes!**
 
 I strongly recommend testing your margins before printing a full panel using the margin tester.
