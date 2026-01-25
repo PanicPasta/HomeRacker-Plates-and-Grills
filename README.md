@@ -8,7 +8,7 @@ Find this project on Maker World: https://makerworld.com/en/models/1945329-homer
 
 Find me on MakerWorld: https://makerworld.com/en/@PanicPasta
 
-<img src="https://makerworld.bblmw.com/makerworld/model/USbae2ffb7561780/design/2025-12-19_59af8631595678.jpg" width="50%" height="50%">
+<img src="https://makerworld.bblmw.com/makerworld/model/USbae2ffb7561780/design/2025-12-19_59af8631595678.jpg?x-oss-process=image/resize,w_1000/format,webp" width="50%" height="50%">
 
 **Now with Fan Grills / Exhaust Holes!**
 
