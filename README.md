@@ -52,7 +52,6 @@ Share your custom plates.
 
 ## OpenSCAD Options
 
----
 
 ## Parameters
 
@@ -68,8 +67,6 @@ Recommended minimum is **1mm** to prevent warping.
 
 ### Shape Color
 Color of the plate (HEX).
-
----
 
 ## Debug Options
 
