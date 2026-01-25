@@ -35,21 +35,12 @@ Share your custom plates.
 - Margin adjustments for ears and flaps
 - Basic SVG embedding (experimental)
 
----
 
 ## New Features as of v1.3
 
 - Added Fan Grills / Vent Holes  
 - Tested on Bambu A1 Mini only  
 - Larger plates and fan grills are untested — please report any issues  
-
----
-
-## Guides
-
-### Guide On
-
-### Guide Off
 
 ---
 
