@@ -80,16 +80,12 @@ Color of debug text and objects (HEX).
 ### Cutout Guidelines
 Displays debug blocks showing where flap cuts will occur.
 
----
-
 ## Toggle Holes
 
 - Hole Top
 - Hole Bottom
 - Hole Left
 - Hole Right
-
----
 
 ## Ears Settings
 
@@ -100,8 +96,6 @@ Displays debug blocks showing where flap cuts will occur.
 
 ### Ear Thickness
 Thickness of ears in millimeters.
-
----
 
 ## Interlaced Ears
 
@@ -121,8 +115,6 @@ Margin in millimeters
 Negative values increase clearance  
 Positive values reduce clearance
 
----
-
 ## Connector Corner Cutouts  
 (30mm / 2 HomeRacker Units)
 
@@ -131,16 +123,12 @@ Positive values reduce clearance
 - Corner Bottom Left
 - Corner Bottom Right
 
----
-
 ## Remove Flaps
 
 - Flaps Top
 - Flaps Bottom
 - Flaps Left
 - Flaps Right
-
----
 
 ## Interlaced Flaps
 
@@ -160,8 +148,6 @@ Margin in millimeters
 Negative values increase clearance  
 Positive values reduce clearance
 
----
-
 ## Cutouts
 
 Settings repeat twice per side.
@@ -170,8 +156,6 @@ Settings repeat twice per side.
 - Cutout Size (HomeRacker units)
 - Cutout Top Start (HomeRacker units)
 
----
-
 ## SVG Embed (Experimental)
 
 - Enable SVG
@@ -179,8 +163,6 @@ Settings repeat twice per side.
 - SVG Color
 
 Adds an SVG to the outer face of the plate.
-
----
 
 ## Fan Openings / Fan Cutouts
 
@@ -212,6 +194,8 @@ https://github.com/kellervater for creating HomeRacker.
 
 Based on the open-source HomeRacker specification:  
 https://homeracker.org/
+
+HomeRacker on Github: https://github.com/kellerlabs/homeracker
 
 ---
 
