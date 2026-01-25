@@ -40,14 +40,14 @@ Share your custom plates.
 - Interlaced ears 
 - Margin adjustments for ears and flaps
 - Basic SVG embedding (experimental)
-
-
-## New Features as of v1.3
-
 - Added Fan Grills / Vent Holes  
 - Tested on Bambu A1 Mini only  
-- Larger plates and fan grills are untested — please report any issues  
-
+- Larger plates and fan grills are untested — please report any issues
+   
+## New features as of 1.4
+- Fixed the core code base and optimized for an OpenSource release. Now on github: https://github.com/PanicPasta/HomeRacker-Plates-and-Grills . Feel free to let me know features to add via Github or here on Makerworld.
+- Fixed some adjustment fits with the corners.
+- Fixed a bug where the thickness of the plate wouldnt scale the holes correctly. 
 ---
 
 ## OpenSCAD Options
@@ -200,7 +200,11 @@ HomeRacker on Github: https://github.com/kellerlabs/homeracker
 ---
 
 ## Changelog
+###[2026-01-25] - Version 1.4
+- Fixed the core code base and optimized for an OpenSource release. Now on github: https://github.com/PanicPasta/HomeRacker-Plates-and-Grills . Feel free to let me know features to add via Github or here on Makerworld.
+- Fixed some adjustment fits with the corners.
 
+Fixed a bug where the thickness of the plate wouldnt scale the holes correctly.  
 ### [2025-12-19] - Version 1.3
 - Added Fan Grills / Vent Holes  
 ### [2025-12-10] - Version 1.2
