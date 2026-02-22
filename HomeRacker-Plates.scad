@@ -1,5 +1,7 @@
 ////////////////////////////////////////
-// HomeRacker Plates – v1.4 - Jan 25rd, 2026
+// HomeRacker Plates – v1.4.1 - Feb 22nd, 2026
+// Made By PanicPasta - screams@panicpasta.me
+// Follow me on MakerWorld: https://makerworld.com/en/@PanicPasta/
 ////////////////////////////////////////
 
 /* [Parameters] */
@@ -78,12 +80,19 @@ cutout_top_1_enabled = false;//Top Cutouts
 cutout_top_1_size = 1; // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 //Starting position from Left to Right in HomeRacker Units.
 cutout_top_1_start_position = 0; // [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+// Margin in millimetres - Do not excced -2.0mm - This value removes from the left and right of each cutout to allow for slight variations on prints.
+cutout_top_1_margin = -0.1; 
+
 //Enables or disables a cutout box.
 cutout_top_2_enabled = false;
 //Size of Cutout in HomeRacker Units
 cutout_top_2_size = 1; // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 //Starting position from Left to Right in HomeRacker Units.
 cutout_top_2_start_position = 0; // [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+// Margin in millimetres - Do not excced -2.0mm - This value removes from the left and right of each cutout to allow for slight variations on prints.
+cutout_top_2_margin = -0.1;
+
+
 
 /* [Bottom Cutouts] */
 //Enables or disables a cutout box.
@@ -92,12 +101,18 @@ cutout_bottom_1_enabled = false;//Top Cutouts
 cutout_bottom_1_size = 1; // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 //Starting position from Left to Right in HomeRacker Units.
 cutout_bottom_1_start_position = 0; // [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+// Margin in millimetres - Do not excced -2.0mm - This value removes from the left and right of each cutout to allow for slight variations on prints.
+cutout_bottom_1_margin = -0.1; 
+
 //Enables or disables a cutout box.
 cutout_bottom_2_enabled = false;
 //Size of Cutout in HomeRacker Units
 cutout_bottom_2_size = 1; // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 //Starting position from Left to Right in HomeRacker Units.
 cutout_bottom_2_start_position = 0; // [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+enable_cutout_bottom_margin = false;
+// Margin in millimetres - Do not excced -2.0mm - This value removes from the left and right of each cutout to allow for slight variations on prints.
+cutout_bottom_2_margin = -0.1; 
 
 /* [Left Cutouts] */
 //Enables or disables a cutout box.
@@ -106,12 +121,17 @@ cutout_left_1_enabled = false;//Top Cutouts
 cutout_left_1_size = 1; // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 //Starting position from Top to Bottom in HomeRacker Units.
 cutout_left_1_start_position = 1; // [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+// Margin in millimetres - Do not excced -2.0mm - This value removes from the left and right of each cutout to allow for slight variations on prints.
+cutout_left_1_margin = -0.1; 
+
 //Enables or disables a cutout box.
 cutout_left_2_enabled = false;
 //Size of Cutout in HomeRacker Units
 cutout_left_2_size = 1; // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 //Starting position from Top to Bottom in HomeRacker Units.
 cutout_left_2_start_position = 0; // [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+// Margin in millimetres - Do not excced -2.0mm - This value removes from the left and right of each cutout to allow for slight variations on prints.
+cutout_left_2_margin = -0.1; 
 
 /* [Right Cutouts] */
 //Enables or disables a cutout box.
@@ -120,12 +140,18 @@ cutout_right_1_enabled = false;//Top Cutouts
 cutout_right_1_size = 1; // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 //Starting position from Top to Bottom in HomeRacker Units.
 cutout_right_1_start_position = 0; // [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+// Margin in millimetres - Do not excced -2.0mm - This value removes from the left and right of each cutout to allow for slight variations on prints.
+cutout_right_1_margin = -0.1; 
+
 //Enables or disables a cutout box.
 cutout_right_2_enabled = false;
 //Size of Cutout in HomeRacker Units
 cutout_right_2_size = 1; // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 //Starting position from Top to Bottom in HomeRacker Units.
 cutout_right_2_start_position = 0; // [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+// Margin in millimetres - Do not excced -2.0mm - This value removes from the left and right of each cutout to allow for slight variations on prints.
+cutout_right_2_margin = -0.1; 
+
 /* [Fan Openings / Fan Cutouts - *Experimental*] */
 enable_fan_holes = false;
 //Fan size in mm
@@ -375,13 +401,14 @@ if(interlaced_flaps_bottom) {
 
 module check_cutouts()
 {
+    
     //Cutout - Top - 1
     create_cutout(
         cutout_top_1_enabled, 
         cutout_top_1_start_position,
         cutout_top_1_size,
-        [x_shift + cutout_top_1_start_position * Unit_Size,-y_shift - Unit_Size - (ear_thickness/2),thickness/2 -thickness],
-        [Unit_Size * cutout_top_1_size, Unit_Size + (ear_thickness/2), Unit_Size + thickness]
+        [x_shift + cutout_top_1_start_position * Unit_Size - cutout_top_1_margin/2,-y_shift - Unit_Size - (ear_thickness/2),thickness/2 -thickness],
+        [Unit_Size * cutout_top_1_size + cutout_top_1_margin, Unit_Size + (ear_thickness/2), Unit_Size + thickness]
     );
    
     //Cutout - Top - 2
@@ -389,8 +416,8 @@ module check_cutouts()
         cutout_top_2_enabled,
         cutout_top_2_start_position,
         cutout_top_2_size,
-        [x_shift + cutout_top_2_start_position * Unit_Size,-y_shift - Unit_Size - (ear_thickness/2),thickness/2 -thickness],
-        [Unit_Size * cutout_top_2_size, Unit_Size + (ear_thickness/2), Unit_Size + thickness]
+        [x_shift + cutout_top_2_start_position * Unit_Size - cutout_top_2_margin/2,-y_shift - Unit_Size - (ear_thickness/2),thickness/2 -thickness],
+        [Unit_Size * cutout_top_2_size + cutout_top_2_margin, Unit_Size + (ear_thickness/2), Unit_Size + thickness]
     );
     
     //Cutout - Bottom - 1
@@ -398,16 +425,16 @@ module check_cutouts()
         cutout_bottom_1_enabled,
         cutout_bottom_1_start_position,
         cutout_bottom_1_size,
-        [x_shift + cutout_bottom_1_start_position * Unit_Size,y_shift,-thickness],
-        [Unit_Size * cutout_bottom_1_size, Unit_Size + (ear_thickness/2), Unit_Size + thickness]
+        [x_shift + cutout_bottom_1_start_position * Unit_Size - cutout_bottom_1_margin/2,y_shift,-thickness],
+        [Unit_Size * cutout_bottom_1_size + cutout_bottom_1_margin, Unit_Size + (ear_thickness/2), Unit_Size + thickness]
     );
     //Cutout - Bottom - 2
     create_cutout(
         cutout_bottom_2_enabled,
         cutout_bottom_2_start_position,
         cutout_bottom_2_size,
-        [x_shift + cutout_bottom_2_start_position * Unit_Size,y_shift,-thickness],
-        [Unit_Size * cutout_bottom_2_size, Unit_Size + (ear_thickness/2), Unit_Size + thickness]
+        [x_shift + cutout_bottom_2_start_position * Unit_Size - cutout_bottom_2_margin/2,y_shift,-thickness],
+        [Unit_Size * cutout_bottom_2_size + cutout_bottom_2_margin, Unit_Size + (ear_thickness/2), Unit_Size + thickness]
     );
     
     //Cutout - Left - 1
@@ -415,24 +442,24 @@ module check_cutouts()
         cutout_left_1_enabled,
         cutout_left_1_start_position,
         cutout_left_1_size,
-        [x_shift,-y_shift - cutout_left_1_start_position - (Unit_Size * cutout_left_1_size),-thickness],
-        [Unit_Size + (ear_thickness/2),Unit_Size * cutout_left_1_size, Unit_Size + thickness]
+        [x_shift,-y_shift - cutout_left_1_start_position * Unit_Size - (Unit_Size * cutout_left_1_size) - cutout_left_1_margin/2,-thickness],
+        [Unit_Size + (ear_thickness/2),Unit_Size * cutout_left_1_size + cutout_left_1_margin, Unit_Size + thickness]
     );
     //Cutout - Left - 2
     create_cutout(
         cutout_left_2_enabled,
         cutout_left_2_start_position,
         cutout_left_2_size,
-        [x_shift,-y_shift - cutout_left_2_start_position - (Unit_Size * cutout_left_2_size),-thickness],
-        [Unit_Size + (ear_thickness/2),Unit_Size * cutout_left_2_size, Unit_Size + thickness]
+        [x_shift,-y_shift - cutout_left_2_start_position * Unit_Size - (Unit_Size * cutout_left_2_size) - cutout_left_2_margin/2,-thickness],
+        [Unit_Size + (ear_thickness/2),Unit_Size * cutout_left_2_size + cutout_left_2_margin, Unit_Size + thickness]
     );
     //Cutout - Right - 1
     create_cutout(
         cutout_right_1_enabled,
         cutout_right_1_start_position,
         cutout_right_1_size,
-        [-x_shift - Unit_Size - (ear_thickness/2),-y_shift - cutout_right_1_start_position - (Unit_Size * cutout_right_1_size),-thickness],
-        [Unit_Size + (ear_thickness/2),Unit_Size * cutout_right_1_size, Unit_Size + thickness]
+        [-x_shift - Unit_Size - (ear_thickness/2),-y_shift - cutout_right_1_start_position * Unit_Size - (Unit_Size * cutout_right_1_size) - cutout_right_1_margin/2,-thickness],
+        [Unit_Size + (ear_thickness/2),Unit_Size * cutout_right_1_size + cutout_right_1_margin, Unit_Size + thickness]
     );
 
     //Cutout - Right - 2
@@ -440,8 +467,8 @@ module check_cutouts()
         cutout_right_2_enabled,
         cutout_right_2_start_position,
         cutout_right_2_size,
-        [-x_shift - Unit_Size - (ear_thickness/2),-y_shift - cutout_right_2_start_position - (Unit_Size * cutout_right_2_size),-thickness],
-        [Unit_Size + (ear_thickness/2),Unit_Size * cutout_right_2_size, Unit_Size + thickness]
+        [-x_shift - Unit_Size - (ear_thickness/2),-y_shift - cutout_right_2_start_position * Unit_Size - (Unit_Size * cutout_right_2_size) - cutout_right_2_margin/2,-thickness],
+        [Unit_Size + (ear_thickness/2),Unit_Size * cutout_right_2_size + cutout_right_2_margin, Unit_Size + thickness]
     );
     
 }
